@@ -1,9 +1,11 @@
 #include <iostream>
 #include <GLFW/glfw3.h>
+#include <mylib.h>
 
 int main(int argc, char** argv)
 {
-    std::cout << "this is working" << std::endl;
+    std::cout << "starting main function" << std::endl;
+    std::cout << mylib::myFunction() << std::endl;
 
     GLFWwindow *window;
     if( !glfwInit() )
@@ -20,12 +22,6 @@ int main(int argc, char** argv)
     }
     while( !glfwWindowShouldClose(window) )
     {
-        // Draw gears
-        //draw();
-
-        // Update animation
-        //animate();
-
         // Swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
