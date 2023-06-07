@@ -1,9 +1,11 @@
 #include <iostream>
 #include <GLFW/glfw3.h>
 #include <mylib.h>
+#include <myprojConfig.h>
 
-int main(int argc, char** argv)
+int main(int argc, char* argv[])
 {
+    std::cout << "version " << myproj_VERSION_MAJOR << "." << myproj_VERSION_MINOR << std::endl;
     std::cout << "starting main function" << std::endl;
     std::cout << mylib::myFunction() << std::endl;
 
