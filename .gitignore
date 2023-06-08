@@ -44,4 +44,6 @@ _deps
 *.app
 
 out/build
-.vscode
+.vscode/
+build/
+.vscode/settings.json

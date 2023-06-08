@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/home/anz/cmake_tutorials/ep3/projects/submodule_proj/build/CMakePresets.json"
+    ]
+}

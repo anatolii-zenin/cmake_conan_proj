@@ -1,3 +1,3 @@
 #! /bin/sh
 
-cd out/build ; cmake --build .
+cmake --build ./build --config Release
