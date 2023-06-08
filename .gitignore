@@ -46,4 +46,3 @@ _deps
 out/build
 .vscode/
 build/
-.vscode/settings.json
